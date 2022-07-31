@@ -28,6 +28,7 @@ const startOver = () => {
   level = 0;
   gamePattern =[];
   gameStarted = false;
+  nextSequence();
 }
 const checkAnswer = (currentLevel) => {
 if(gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
